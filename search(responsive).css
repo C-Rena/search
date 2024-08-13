@@ -1,0 +1,113 @@
+@media (max-width: 1045px) {
+    .nav-menu ul li{
+        display: none;
+    }
+}
+@media (max-width: 780px) {
+    .catagory_carts{
+        display: flex;
+        gap: 35px;
+    }
+    .text_button p{
+        font-size: 27px;
+        line-height: 26px;
+    }
+    .catagory_cart{
+        width: calc((100% - (35px * (3 - 1))) / 3);
+    }
+    .f-col-1 ul,
+    .f-col-2 ul,
+    .f-col-3 ul{
+        display: none;
+    }
+    .f-right-side{
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+@media (max-width: 590px) {
+    .kartlar{
+        display: flex;
+        gap: 20px;
+    }
+    .latest_carts{
+        width: calc((100% - (20px * (3 - 1))) / 3);
+    }
+    .collections_carts{
+        display: flex;
+        flex-direction: column;
+    }
+    .collections_cart{
+        width: 100%;
+    }
+    #inbox_div_text{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #inbox_div_text2{
+        font-size: 20px;
+    
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .inbox_div_elements{
+        width: 400px;
+    }
+   
+    #inbox_div_text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #inbox_div_text2{
+        display: none;
+    }
+
+}
+@media (max-width:390px){
+    .kartlar{
+        display: flex;
+        gap: 10px;
+    }
+    .latest_carts{
+        width: calc((100% - (10px * (2 - 1))) / 2);
+    }
+
+    .catagory_carts{
+        display: flex;
+        gap: 25px;
+    }
+    .catagory_cart{
+        width: calc((100% - (25px * (2 - 1))) / 2);
+    }
+
+    .super_delicions_carts{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .super_delicions_cart{
+        width: 100%;
+    }
+    .sweet_tooth_carts{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Sweet_tooth_cart{
+        width: 100%;
+    }
+    .inbox_div_elements{
+        width: 300px;
+    }
+   
+    #inbox_div_text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .collections_carts{
+        width: 100%;
+    }
+}
